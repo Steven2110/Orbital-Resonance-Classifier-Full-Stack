@@ -1,0 +1,8 @@
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+Pillow==10.1.0
+openpyxl==3.1.2
+matplotlib==3.10.8
+numpy==2.3.5
+tensorflow==2.18.0

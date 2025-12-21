@@ -1,0 +1,11 @@
+# Ignore all model files (they're usually large)
+*.keras
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# But keep this directory
+!.gitignore
