@@ -1,0 +1,154 @@
+.prediction-results-container {
+  margin-top: 2rem;
+}
+
+.prediction-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.prediction-header h2 {
+  color: #333;
+  font-size: 1.8rem;
+}
+
+.prediction-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.prediction-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.prediction-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.prediction-header-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.prediction-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.prediction-meta {
+  flex: 1;
+}
+
+.prediction-meta h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.prediction-date {
+  color: #999;
+  font-size: 0.9rem;
+}
+
+.confidence-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.related-image {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.related-image strong {
+  color: #666;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.3rem;
+}
+
+.related-image span {
+  color: #333;
+  font-size: 1rem;
+}
+
+.prediction-result {
+  padding: 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+}
+
+.prediction-result strong {
+  color: #666;
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+
+.prediction-result pre {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #333;
+  margin: 0;
+  border: 1px solid #e0e0e0;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: #999;
+}
+
+.empty-state svg {
+  color: #ddd;
+  margin-bottom: 1rem;
+}
+
+.empty-state p {
+  font-size: 1.3rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.empty-state span {
+  font-size: 1rem;
+  color: #999;
+}
+
+.loading {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-size: 1.1rem;
+}

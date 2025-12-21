@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer orbit ring -->
+  <circle cx="50" cy="50" r="40" fill="none" stroke="url(#grad)" stroke-width="3" opacity="0.6"/>
+  
+  <!-- Inner orbit ring -->
+  <ellipse cx="50" cy="50" rx="40" ry="20" fill="none" stroke="url(#grad)" stroke-width="2.5" opacity="0.7" transform="rotate(30 50 50)"/>
+  
+  <!-- Center planet/star -->
+  <circle cx="50" cy="50" r="12" fill="url(#grad)"/>
+  
+  <!-- Orbiting body 1 -->
+  <circle cx="85" cy="50" r="5" fill="#667eea"/>
+  
+  <!-- Orbiting body 2 -->
+  <circle cx="30" cy="30" r="4" fill="#764ba2"/>
+</svg>
